@@ -1,0 +1,63 @@
+body {
+  background-color: hsl(228, 45%, 44%);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+}
+
+.desktopBackground {
+  position: fixed;
+  
+}
+
+.huddleLogo {
+  margin: 10px;
+  padding: 20px;
+}
+
+.mockup {
+  padding: 25px;
+}
+
+.allTheText {
+  padding: 5rem 10px;
+}
+
+.register {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  height: 12px;
+  line-height: 12px;
+  color: #674BAF;
+  font-family: Open Sans;
+  width: 191px;
+  font-size: 25px;
+  padding: 25px 30px 30px 30px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  border: solid #000000 0px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Footer Section */
+
+.sm-icon {
+  padding: 20px;
+  position: relative;
+  align-self: right;
+  height: 20px;
+}
