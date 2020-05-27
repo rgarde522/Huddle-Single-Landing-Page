@@ -56,16 +56,28 @@ p {
 /* Footer Section */
 
 .footer {
-  display: flex;
-  float: right;
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+.social-icon {
+  margin: 20px 30px;
+    color: #fff;
+    font-size: 2rem;
 
 }
 
-.sm-icon {
-  font-size: x-large;
-  color: #FFFFFF;
-  padding: 0 50px 30px 0;
-  text-align: center;
-  
-  
+.attribution { 
+  visibility: hidden;
+  font-size: 11px; 
+  text-align: center; }
+    
+.attribution a { 
+  color:hsl(228, 45%, 44%); 
+
 }
